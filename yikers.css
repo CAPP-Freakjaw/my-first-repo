@@ -1,0 +1,130 @@
+#hayss{
+
+    /* background: url("Background/tokyoskyline.jpg");
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 300px;
+    width: 100%;
+
+    */
+    
+    background: linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -webkit-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -moz-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -o-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+
+}
+
+#lol{
+
+    /* background: url("Background/tokyoskyline.jpg");
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 300px;
+    width: 100%;
+
+    */
+    
+    background: linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -webkit-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -moz-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -o-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+
+}
+
+#main{
+    
+    background: linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -webkit-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -moz-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+    background: -o-linear-gradient(bottom,rgba(255,25,255,0),rgba(255.25.255.1));
+
+}
+
+.first{
+
+    background: url(Background/tokyoskyline.jpg);
+
+}
+
+.panguna{
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pangalawa{
+    word-wrap: break-word;
+    font-family: myFirstFont;
+
+    animation-name: myFirst;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fonts/MetalLady.otf);
+}
+
+@keyframes myFirst {
+    
+    0%{
+
+        background: red;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    25%{
+
+        background: yellow;
+        left: 200px;
+        top: 0px;
+
+    }
+
+    50%{
+
+        background: green;
+        left: 200px;
+        top: 200px;
+
+    }
+
+    75%{
+
+        background: blue;
+        left: 0px;
+        top: 200px;
+
+    }
+
+    100%{
+
+        background: orange;
+        left: 0px;
+        top: 0px;
+
+    }
+
+
+
+
+
+
+}
